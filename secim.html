@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="30">
+    <link rel="icon" type="image/x-icon" href="resimler/uatak_logo.png">
+    <title> uatak - Seçim</title>
+</head>
+
+<style>
+    body {
+        background-color: #1c1c1c;
+    }
+</style>
+
+<body>
+    <div class="logo" style="text-align: center; color: aliceblue;">
+        <img src="resimler/uatak_logo_beyaz.png" widht="100px" height="100px">
+    </div>
+
+    <div class="link" style="text-align: center; color: aliceblue;">
+        <a style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: pink; font-size: large;" href="anasayfa.html">Anasayfa</a>
+        <p> </p>
+        <a style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: pink; font-size: large;" href="uye.html">Uye Ol |</a>
+        <a style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: pink; font-size: large;" href="giriş.html">Giriş Yap |</a>
+        <a style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: pink; font-size: large;" href="all.html">Herşey Var |</a>
+        <a style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: pink; font-size: large;" href="secim.html">Seçim</a>
+        <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;"> Şuanda <b>Seçim</b> ekranı görüntüleniyor. </p>
+    </div>
+
+    <div class="secim" style="text-align: center;">
+        <select name="iller" size="1">
+            <option value="plaka06">Ankara</option>
+            <option value="plaka68">Aksaray</option>
+            <option value="plaka34">İstanbul</option>
+        </select>
+        <p> </p>
+        <select name="iller" multiple>
+            <option value="1">Ocak</option>
+            <option value="2">Şubat</option>
+            <option value="3">Mart</option>
+            <option value="4">Nisan</option>
+            <option value="5">Mayıs</option>
+            <option value="6">Haziran</option>
+            <option value="7">Temmuz</option>
+            <option value="8">Ağustos</option>
+            <option value="9">Eylül</option>
+            <option value="10">Ekim</option>
+            <option value="11">Kasım</option>
+            <option value="12">Aralık</option>
+        </select>
+        <p> </p>
+        <select name="riskharitası" multiple>
+            <option selected value="none">Hiçbiri</option>
+            <optgroup label="Kırmızı">
+                <option value="k1">Sakarya</option>
+                <option value="k2">Konya</option>
+                <option value="k3">Balıkesir</option>
+            </optgroup>
+            <optgroup label="Sarı">
+                <option value="s1">Eskişehir</option>
+                <option value="s2">Kırşehir</option>
+                <option value="s3">Yozgat</option>
+            </optgroup>
+            <optgroup label="Turuncu">
+                <option value="t1">Artvin</option>
+                <option value="t2">Çanakkale</option>
+                <option value="t3">Kütahya</option>
+            </optgroup>
+            <optgroup label="Mavi">
+                <option value="m1">Aksaray</option>
+                <option value="m2">Uşak</option>
+                <option value="m3">Ağrı</option>
+            </optgroup>
+        </select>
+    </div>
+</body>
+
+</html>
